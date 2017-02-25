@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Strona główna</title>
+		<meta name="author" content="Mariusz Przybysz"/>
+		<meta name="description" content="Podstawy HTML i CSS"/>
+    <meta name="keywords" content="html, css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="css/style.css"/>
+	</head>
+	<body>
+		<header class="headerMariuszPrzybysz">
+			<div>
+				<div>
+					html i css
+				</div>
+				<div>
+					kurs software development academy
+				</div>
+			</div>
+			<nav>
+				<div>
+					<a href="index.html">Strona główna</a>
+				</div>
+				<div>
+					<a href="elementy.html">Elementy</a>
+				</div>
+				<div>
+					<a class="activePage" href="formularze.html">Formularze</a>
+				</div>
+			</nav>
+		</header>
+		<main class="mainMariuszPrzybysz">
+			<form class="contact-form" method="post">
+				<fieldset>
+					<legend>Formularz kontaktowy</legend>
+					<div class="form-row">
+						<label class="form-label" for="first-name-id">Imię:</label>
+						<input class="form-input" type="text" name="first-name" id="first-name-id" autofocus required>
+					</div>
+					<div class="form-row">
+						<label class="form-label" for="last-name-id">Nazwisko:</label>
+						<input class="form-input" type="text" name="last-name" id="last-name-id">
+					</div>
+					<div class="form-row">
+						<label class="form-label" for="email-id">Adres e-mail:</label>
+						<input class="form-input" type="email" name="email" id="email-id" autocomplete="off" required>
+					</div>
+					<div class="form-row">
+						<label class="form-label" for="message-id">Wiadomość:</label>
+						<textarea class="form-input" rows="5" name="message" id="message-id" placeholder="Twoja wiadomość" required></textarea>
+					</div>
+					<div class="form-row">
+						<label class="form-label checkbox-row" for="newsletter-id">Chcę otrzymywać newsletter:</label>
+						<input type="checkbox" name="newsletter" id="newsletter-id">
+					</div>
+					<div class="form-row submit">
+						<button type="submit" class="button-submit" >Wyślij wiadomość!</button>
+					</div>
+				</fieldset>
+			</form>
+		</main>
+		<footer class="footerMariuszPrzybysz">
+			Footer
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,254 @@
+/*- - - - - body - - - - -*/
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+header,
+section,
+footer,
+aside,
+nav,
+main,
+article,
+figure {
+  display: block;
+  /*Older browsers*/
+}
+
+body {
+  background-color: #f2f2f2;
+  margin: 0 auto;
+  font-family: "Georgia", Arial, sans-serif;
+  height: 100%;
+}
+
+
+/*- - - - - header - - - - -*/
+
+.headerMariuszPrzybysz {
+  text-align: center;
+}
+
+.headerMariuszPrzybysz>div {
+  height: 500px;
+  background-image: url("https://unsplash.it/1920/800?random");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-transform: uppercase;
+  padding-top: 250px;
+}
+
+.headerMariuszPrzybysz>div>div {
+  padding: 5px;
+}
+
+.headerMariuszPrzybysz>div>div:first-child {
+  font-size: 48px;
+}
+
+.headerMariuszPrzybysz>div>div:last-child {
+  font-size: 18pt;
+}
+
+.headerMariuszPrzybysz nav {
+  background: #ffffff;
+  padding: 15px 0;
+  box-shadow: 0 3px 5px #888888;
+}
+
+.headerMariuszPrzybysz nav div {
+  display: inline-block;
+  margin: 0 20px;
+  font-size: 20px;
+}
+
+.headerMariuszPrzybysz a.activePage {
+  font-weight: bold;
+}
+
+.mainMariuszPrzybysz {
+  padding: 15px 0;
+  font-size: 20px;
+}
+
+.footerMariuszPrzybysz {
+  padding: 15px 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+/*- - - - - main - - - - -*/
+
+.mainMariuszPrzybysz .flexSection {
+  display: flex;
+}
+
+.mainMariuszPrzybysz .flexSection section {
+  background-color: rgb(249, 249, 249);
+}
+
+.mainMariuszPrzybysz .flexSection .leftSubSection {
+  margin: 10px 5px 10px 10px;
+  width: 50%;
+}
+
+.mainMariuszPrzybysz .leftSubSection.notEqual {
+  width: 75%;
+}
+
+.mainMariuszPrzybysz .leftSubSection.notEqual {
+  width: 75%;
+}
+
+.mainMariuszPrzybysz .panTadeusz {
+  list-style-type: none;
+}
+
+.mainMariuszPrzybysz article {
+  padding: 10px;
+}
+
+.mainMariuszPrzybysz .flexSection .leftSubSection article {
+  height: 100%;
+}
+
+.mainMariuszPrzybysz .flexSection .rightSubSection {
+  margin: 10px 10px 10px 5px;
+  width: 50%;
+}
+
+.mainMariuszPrzybysz .rightSubSection.notEqual {
+  width: 25%;
+}
+
+
+/*- - - - - Listy - - - - -*/
+
+.mainMariuszPrzybysz .circle {
+  list-style-type: circle;
+}
+
+.mainMariuszPrzybysz .upper-roman {
+  list-style-type: upper-roman;
+}
+
+.mainMariuszPrzybysz .square {
+  list-style-type: square;
+}
+
+.mainMariuszPrzybysz .lower-alpha {
+  list-style-type: lower-alpha;
+}
+
+
+/*- - - - - Tabela - - - - -*/
+
+.tableSection {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableSection thead th {
+  text-transform: uppercase;
+  background-color: #0080ff;
+  padding: 10px 20px;
+  color: white;
+}
+
+.tableSection td {
+  padding: 10px 20px;
+}
+
+.tableSection tfoot tr:first-child td {
+  text-align: right;
+}
+
+.tableSection tbody tr:nth-child(even) td {
+  background-color: #3399ff;
+  color: white;
+}
+
+.tableSection td:last-child {
+  text-align: right;
+}
+
+.tableSection tfoot tr:first-child {
+  border-top: 2px solid #3399ff;
+}
+
+
+/*- - - - - Obraz - - - - -*/
+
+.articleMap iframe {
+  width: 100%;
+  height: 600px;
+  border: 0;
+}
+
+
+/*- - - - - Formularz - - - - -*/
+
+.contact-form * {
+  outline: none;
+  font-family: "Georgia", serif;
+  font-size: 12pt;
+  color: gray;
+  border: 0px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.contact-form fieldset {
+  text-transform: uppercase;
+}
+
+.form-row {
+  margin-top: 15px;
+}
+
+.form-row.submit {
+  text-align: right;
+}
+
+.form-label {
+  display: block;
+}
+
+label.checkbox-row {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  background-color: #E7E7E7;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.form-input:focus {
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, .7);
+}
+
+textarea.form-input {
+  resize: none;
+}
+
+.button-submit {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.button-submit:hover {
+  background-color: #809FCB;
+}
+
+
+/*- - - - - footer - - - - -*/
